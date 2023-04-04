@@ -1,4 +1,23 @@
 
+## Setup
+requirements: 
+- python3.10+ 
+- pip3 22.0+
+
+### Dependencies: beautifulsoup4 requests
+
+```
+pip3 install beautifulsoup4 requests
+```
+
+
+## Launch
+
+```
+python3 404.py http://localhost --threads 2 --internal follow --external ignore --timeout 15 --print-all > report.txt
+```
+
+
 ## About
 
 This shouldn't have happened.
