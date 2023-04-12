@@ -1,7 +1,14 @@
 
+# Usage
+
+```
+./run https://public.staging.apptweak.com
+```
+
+
 ## Setup
-requirements: 
-- python3.10+ 
+requirements:
+- python3.10+
 - pip3 22.0+
 
 ### Dependencies: beautifulsoup4 requests
@@ -156,4 +163,3 @@ Like all my hobby projects, this is Free Software. See the [Documentation][]
 folder for more information. No warranty though.
 
 [Documentation]: Documentation
-

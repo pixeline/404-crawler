@@ -1,0 +1,11 @@
+#!/bin/bash
+# 404 Crawler - credits: https://github.com/Beluki/404
+# usage: ./run http://example.com
+
+URL=$1
+if [ -z "$URL" ]; then
+    echo "Usage: ./run http://example.com"
+    exit 1
+fi
+echo "Crawling $URL"
+python3 Source/404.py $URL --threads 2 --internal follow --external ignore --timeout 15 --print-all > report.txt
